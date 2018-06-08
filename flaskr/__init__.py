@@ -33,7 +33,7 @@ def create_app(test_config=None):
 	except OSError:
 		pass
 	
-	# simple page
+	# simple page,test page
 	@app.route("/hello")
 	def hello():
 		return "Hello,World!!"
